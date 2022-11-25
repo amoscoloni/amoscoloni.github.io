@@ -1,0 +1,42 @@
+#about{
+    padding: 1.5em;
+    display: flex;
+    min-width: 1744px;
+}
+
+#name {
+    flex: 1;
+}
+
+#about-paragraph {
+    flex: 2;
+}
+
+#name h4 {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+#links ul {
+    display: flex;
+}
+
+#links ul li{
+    width: 10%;
+    justify-content: center;
+}
+
+#links ul li a{
+    display: flex;
+    width: 100%;
+    padding: 0.9em;
+}
+
+#links ul li a:first-child{
+    min-width: 61px;
+    padding-left: 0;
+}
+
+#links ul img {
+   width: 100%;
+}
