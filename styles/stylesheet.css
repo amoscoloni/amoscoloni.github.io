@@ -3,7 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;
-    text-decoration: none;
+    text-decoration: none !important;
+    list-style: none !important;
     color: black;
 }
 
@@ -19,10 +20,14 @@ nav {
     background-color: #D1EEFC;
 }
 
+li {
+    list-style: none !important;
+}
+
 ul a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
+    text-decoration: none !important;
+    list-style: none !important;
+    color: black !important;
 }
 
 
@@ -50,9 +55,12 @@ ul a{
 }
 
 #about{
-    padding: 1.5em;
+    margin: 1em;
+    padding: 2em;
     display: flex;
     min-width: 1744px;
+    border: solid black 1px;
+    border-radius: 1em;
 }
 
 #name {
@@ -91,6 +99,8 @@ ul a{
 #links ul img {
    width: 100%;
 }
+
+
 /*
 nav ul{
     display: flex;
