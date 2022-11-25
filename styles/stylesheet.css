@@ -75,6 +75,7 @@ ul a{
 
 #about-paragraph {
     flex: 2;
+    font-size: 1.5em;
 }
 
 #name h4 {
@@ -119,10 +120,40 @@ main {
 .carousel.slide {
     flex: 1;
     margin: 2em;
+    text-align: center;
 }
 
 #about {
     flex: 2;
+}
+
+.img-carousel-container {
+    width: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.carousel-item img {
+    /* width: 300px; */
+    width: 100%;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.carousel.slide {
+    position: relative;
+}
+
+#tech {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*
