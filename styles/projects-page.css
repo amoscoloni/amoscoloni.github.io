@@ -1,0 +1,109 @@
+.display-area {
+    margin: 5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    border-radius: 2em;
+    background-color: #D3BBDD;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.display-area > *{
+    padding: 1.5em;
+} 
+
+.container-display {
+    flex: 2 ;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.container-display a {
+    text-decoration: none;
+    color: black;
+} 
+
+.container-display > * {
+    padding: 1em;
+}
+
+.img-container {
+    width: 60%;
+    margin: 1em;
+    border-radius: 2em;
+    /* margin-top: 4em; */
+    background-color: #F0F0F0;
+    /* flex: 1; */
+}
+
+.img-container img{
+    width: 100%;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.repo-link {
+    border-radius: 1em;
+    border: none;
+    font-size: 1em;
+    padding: 0.5em;
+
+}
+
+.repo-link a {
+    color: black;
+    text-decoration: none;
+}
+
+.project-title {
+    padding: 0.8em;
+}
+
+#trip-tracker-project {
+    flex-direction: row;
+    width: 55%;
+    justify-content: flex-end;
+}
+
+#trip-tracker-project .img-container{
+    flex: 1;
+}
+
+#trip-tracker-project .container-display{
+    flex: 2;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+button:hover {
+    background-color:  #e3e3e3;
+}
+/*
+#tic-tac-toe-project {
+    grid-area: tic;
+    grid-column-start: ;
+}
+
+#trip-tracker-project {
+    grid-area: trip;
+}
+
+#card-project {
+    grid-area: card;
+} */
