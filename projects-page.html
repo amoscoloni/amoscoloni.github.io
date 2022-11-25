@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Moscoloni</title>
+    <link href="styles/stylesheet.css" rel="stylesheet">
+    <link href="styles/projects-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script defer src="./scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div id="name-div"><h2>Anna Moscoloni</h2></div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./projects-page.html">Projects</a>
+                </li>
+              </ul>   
+        </nav>
+    </header>
+    <div id="projects">
+        <div class="display-area" id="tic-tac-toe-project">
+            <h2 class="project-title">Tic Tac Toe Game</h2>
+            <div class="img-container">
+              <img id="project-image" alt="project image" src="./assets/images/ticTacToe.png">
+            </div>
+            <div class="container-display">
+              <p class="description">
+                Assignment for Application Development I during Winter 2022 semester. Refactored code from <a
+                  href="https://github.com/sandy-bultena">Sandy Bultena</a> into MVP
+                architectural pattern, designed Tic Tac Toe user interface and added extra features such as selecting player icon, and
+                wrote presenter unit tests. The application allows 2 users to play a tic tac toe game. Upon starting the application,
+                the user is able to enter a settings page or start a new game. In the settings page, the user is able to select an
+                icon for the first and second player. Once the player begins a new game, the game alternates between prompting each
+                player to select a tile. The turns continue until their is either a tie or one of the players win.
+              </p>
+              <button class="repo-link"><a href="https://github.com/amoscoloni/TicTacToe_AnnaM">View Project</a></button>
+            </div>
+          </div>
+    
+         <div class="display-area" id="trip-tracker-project">
+            <div id="vertical">
+                <h2 class="project-title">Trip Tracking Android App</h2>
+                <div class="img-container">
+                    <img id="project-image" alt="project image" src="./assets/images/trip.png">
+                  </div>
+            </div>
+            <div class="container-display">
+              <p class="description">
+                Created for a Fall 2022 Application Development II course. This application allows drivers to add, view, edit and
+                delete trips they made. Each trip added includes the car's odometer at the start and end of the trip, the date and
+                time of the trip, the duration of the trip, and whether the trip was for uber or a personal trip. All inputed trips
+                are displayed on a dashboard and colour coded based on whether they are a personal or uber trip. Each trip can be
+                deleted or edited via a context menu that appears when the user hold-clicks. There is also an option to filter the
+                list of trips by the date, which is selected through a datepicker.
+              </p>
+              <button  class="repo-link"><a href="https://github.com/amoscoloni/TripTracker_AnnaMoscoloni">View Project</a></button>
+            </div>
+          </div>
+    
+          <div class="display-area" id="card-project">
+            <h2 class="project-title">Card Collection Web App</h2>
+            <div class="img-container">
+              <img id="project-image" alt="project image" src="./assets/images/cardApp.png">
+            </div>
+            <div class="container-display">
+              <p class="description">
+                Created as a final project for a Web Programming II course in Winter 2022 in collaboration with <a
+                  href="https://github.com/Simon-Stasovski">Simon Stasovski</a> and
+                <a href="https://github.com/kevinlaskai">Kevin Laskai</a>. This web application provides a utility for card collectors
+                to upload their cards and store their card
+                deck virtually as well as sell and buy from other users' collections. Users are able to create an account and upload,
+                manage, edit and view their card deck as well as filter their deck or search for a specific card. Users can also put
+                their cards up for sale and shop other user's cards and purchase them. Filters as well as targeted searches are also
+                available when shopping for cards.
+              </p>
+              <button class="repo-link"><a href="https://github.com/amoscoloni/CardCollectionApplication_Cardoholics">View Project</a></button>
+            </div>
+          </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

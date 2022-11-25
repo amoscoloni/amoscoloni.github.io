@@ -84,3 +84,11 @@
     color: black;
     text-decoration: none;
 }
+
+#trip-tracker-project .img-container {
+    width: auto;
+    height: 20%;
+    margin: 2.5em;
+
+    /* flex: 1; */
+}
