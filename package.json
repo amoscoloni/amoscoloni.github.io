@@ -63,6 +63,7 @@
     "@mui/material": "^7.3.2",
     "@mui/styled-engine-sc": "^7.3.2",
     "node": "^24.8.0",
-    "styled-components": "^6.1.19"
+    "styled-components": "^6.1.19",
+    "uuid": "^13.0.0"
   }
 }

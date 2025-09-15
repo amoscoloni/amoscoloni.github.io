@@ -1,4 +1,5 @@
 export const PATH = {
-    prefix: "/",
-    home: "/home"
-}
+  prefix: '/',
+  home: '/home',
+  projects: '/projects',
+};
