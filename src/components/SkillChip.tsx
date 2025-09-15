@@ -16,7 +16,7 @@ export default function SkillChip(props: SkillChipProps): JSX.Element {
   switch (props.skill.category) {
     case SkillCategory.PROGRAMMING_LANGUAGE:
       {
-        chipStyle.backgroundColor = '#E0D6D6';
+        chipStyle.backgroundColor = '#F5E9E9';
       }
       break;
 
@@ -28,19 +28,19 @@ export default function SkillChip(props: SkillChipProps): JSX.Element {
 
     case SkillCategory.FRAMEWORK:
       {
-        chipStyle.backgroundColor = '#c7bebe';
+        chipStyle.backgroundColor = '#D8D0D0';
       }
       break;
 
     case SkillCategory.CONCEPT:
       {
-        chipStyle.backgroundColor = '#d7ced1';
+        chipStyle.backgroundColor = '#E2E2E2';
       }
       break;
 
     case SkillCategory.TOOL:
       {
-        chipStyle.backgroundColor = '#bbb0b0';
+        chipStyle.backgroundColor = '#DCD0D0';
       }
       break;
 

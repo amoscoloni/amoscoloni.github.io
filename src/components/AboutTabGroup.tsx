@@ -14,7 +14,7 @@ export default function AboutTabGroup(): JSX.Element {
   const technicalSkillsTabID = 'techSkills';
   // const coursesTabID = 'courses';
 
-  const [selectedTab, setSelectedTab] = React.useState(experienceTabID);
+  const [selectedTab, setSelectedTab] = React.useState(technicalSkillsTabID);
 
   const handleTabChange = (event: React.SyntheticEvent, newValue: string) => {
     setSelectedTab(newValue);

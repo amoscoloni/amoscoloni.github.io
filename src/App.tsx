@@ -9,11 +9,14 @@ import Projects from './pages/Projects';
 
 export default function App(): JSX.Element {
   React.useEffect(() => {
+    document.title = 'Anna Moscoloni';
     document.body.style.backgroundColor = '#f5f5f5';
+
     return () => {
       document.body.style.backgroundColor = '';
     };
   }, []);
+
   return (
     <Router>
       <Layout />
